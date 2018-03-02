@@ -1,0 +1,69 @@
+body {background-color: #18272E}
+
+p {
+	color: #C9D3D4;
+	vertical-align: middle;
+}
+
+a:link, a:visited {
+    color: #C9D3D4;
+}
+a:hover {
+    color: blue;
+}
+
+#o_mnie {
+	position: absolute;
+	width:100%;
+	height: 300px;
+	border-bottom: 3px inset  #E5FFEE;
+}
+
+#imie{	
+	color: #C9D3D4;
+	position: absolute;
+	height: 100%;
+	left: 45%;
+	align: center;
+}
+
+#profilowe {
+	border: 3px inset  #E5FFEE;
+	position: absolute;
+	width: 192px;
+	height:287px;
+	left: 30%;
+}
+
+#cm_zdj {
+	position: relative;
+	top:305px;
+    height: 500px;
+    background-image: linear-gradient(to left, transparent, black), url("cm.jpg");
+}
+
+#cm_tekst {
+	position: absolute;
+	top: 25%;
+	left: 5%;
+	color: #C9D3D4;
+	font-size: 100px;
+}
+
+#gitara_zdj {
+	position: relative;
+	top:305px;
+    height: 500px;
+    background-image: linear-gradient(to right, transparent, black), url("gitara.jpg");
+}
+
+#gitara_tekst {
+	position: absolute;
+	top: 42%;
+	right: 5%;
+	color: #C9D3D4;
+	font-size: 100px;
+}
+
+
+
